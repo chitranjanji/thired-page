@@ -1,0 +1,209 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: "Gilroy";
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmlrZSUyMHNob2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: bottom;
+}
+#left img{
+    width: 100px;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+}
+#left #btmtext{
+    position: absolute;
+    left: 0%;
+    width: 45%;
+    padding: 20px;
+    bottom: 0%;
+    background-color: #fff;
+}
+#btmtext p{
+    color: #666;
+    font-size: 12px;
+    margin: 5px 0;
+}
+#btmtext button{
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 22Spx;
+    margin-top: 10px;
+    background-color:  black;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
+#right{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    background-color:#eee8e8;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#nleft{
+    display: flex;
+    gap: 20px;
+}
+#nav h3{
+    line-height: 1;
+}
+h3 span{
+    font-weight: 300;
+}
+#nright{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#nright h5{
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+#nright h4{
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+#cards{
+    overflow: auto;
+    display: flex;
+    margin-left: 58px;
+    gap: 30px;
+    padding-right: 58px;
+}
+#cards::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    flex-shrink: 0;
+    width: 230px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    padding-top: 15px;
+    box-shadow: 0px 14px 30px -14px rgb(27, 27, 27);
+}
+.card img{
+    position: absolute;
+    left: 5%;
+    width: 80%;
+    top: 5%;
+    filter: drop-shadow(0px 5px 10px rgb(48, 46, 46));
+}
+.card  h3{
+    margin-top: 60%;
+}
+ .card p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+ }
+ .card #btn{
+     color: hsl(157, 33%, 54%);
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-top: 20px;
+     font-size: 12px;
+     font-weight: 600;
+ }
+ #btn #onecirle{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgb(28, 255, 183, 0.308);
+    background-color: hsl(157, 43%, 73%);
+ }
+ #btn #twocirle{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px  rgba(129, 5, 5, 0.479);
+    background-color: rgba(255, 0, 0, 0.39);
+ }
+ #btn #threecirle{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px  rgba(150, 51, 6, 0.541) ;
+    background-color:  rgba(255, 81, 0, 0.541);
+ }
+ #btn #fourcirle{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px   rgba(6, 6, 119, 0.404);
+    background-color:  rgba(0, 0, 255, 0.274);
+ }
+#side{
+    position: absolute;
+    display: flex;
+    left: 4%;
+    top: 60%;
+    gap: 40px;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+}
+#side a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    opacity: .7;
+}
+#rbtmtxte{
+    display: flex;
+    padding: 50px  80px;
+    gap: 180px;
+    opacity: .7;
+}
+  
+  
